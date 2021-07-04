@@ -74,6 +74,7 @@ form {
     background-image: -moz-linear-gradient( 90deg, rgb(136 85 230) 0%, rgb(66 76 180) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(136 85 230) 0%, rgba(66, 76, 180, 1) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(136 85 230) 0%, rgb(66 76 180) 100%);
+    cursor: pointer;
 }
 
 .msg {
