@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(207, 221, 252);
+}
+
+h1 {
+    font-size: 1rem;
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2px 0
+}
+
+form {
+    padding: 13px 13px 9px 9px;
+}
+
+.container {
+    width: 50%;
+    margin: 5rem auto;
+    background-color: white;
+    padding: .2rem;
+    border-radius: 10px;
+}
+
+.gray-bg {
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+.input {
+    box-shadow: inset 1px 1px 3px rgb(0 0 0 / 48%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.birth-input {
+    padding: 10px 10px;
+    width: 1.6rem;
+    margin-right: .5rem;
+}
+
+.input:focus, input:active {
+    outline: none;
+}
+
+.inline-input {
+    display: flex;
+}
+
+.label-div {
+    padding-right: 13px;
+    padding-bottom: 9px;
+}
+
+.inline-btn {
+    text-align: right;
+}
+ 
+.btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 9px;
+    background-image: -moz-linear-gradient( 90deg, rgb(136 85 230) 0%, rgb(66 76 180) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(136 85 230) 0%, rgba(66, 76, 180, 1) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(136 85 230) 0%, rgb(66 76 180) 100%);
+}
+
+.msg {
+    text-align: center;
+}
